@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../style.css';
+import NavigationBar from '../Components/Navigaion';
 
 const SQL = () => {
   const [openQuestions, setOpenQuestions] = useState([]);
@@ -12,7 +13,27 @@ const SQL = () => {
     }
   };
 
+  const containerStyle = {
+    
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',        
+    backgroundRepeat: 'no-repeat',      
+    height: '87vh',                      
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#B0D9B1',
+    
+    
+  };
+
   return (
+    <div >
+        <nav>
+          <NavigationBar/>
+        </nav>
+    <div style={containerStyle} className="home-container">
     <div className="accordion">
       <div className="accordion-question" onClick={() => toggleQuestion('question01')}>
         What is criminal identification system ?
@@ -45,6 +66,8 @@ const SQL = () => {
       {openQuestions.includes('question04') && (
         <div className="accordion-answer">A Criminal Identification System is a comprehensive software solution designed to aid law enforcement agencies and criminal justice systems in the identification and tracking of criminals. It utilizes various technologies, such as biometrics, facial recognition, and fingerprint matching, to accurately identify individuals involved in criminal activities.</div>
       )}
+    </div>
+    </div>
     </div>
   );
 };

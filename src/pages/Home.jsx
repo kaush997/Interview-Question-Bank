@@ -14,7 +14,8 @@ function HomePO() {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    color: 'white',  
+    backgroundColor: '#B0D9B1',
+    
     
   };
   return (
@@ -30,11 +31,12 @@ function HomePO() {
       <h1>Welcome</h1>
       </div>
       <div className="sub-heading1">
-        To Interview Question Bank
+       Interview Question Bank
       </div>
-      <div className='sub-heading2'>
-       
+      <div className="sub-heading2">
+       to Improve Your Knowledge
       </div>
+    
     </div>
     </div>
   );
