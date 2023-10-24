@@ -18,7 +18,7 @@ const SQL = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',        
     backgroundRepeat: 'no-repeat',      
-    height: '87vh',                      
+    height: 'auto',                      
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -59,6 +59,48 @@ const SQL = () => {
         <div className="accordion-answer">A Criminal Identification System is a comprehensive software solution designed to aid law enforcement agencies and criminal justice systems in the identification and tracking of criminals. It utilizes various technologies, such as biometrics, facial recognition, and fingerprint matching, to accurately identify individuals involved in criminal activities.</div>
       )}
 
+      <div className="accordion-question" onClick={() => toggleQuestion('question04')}>
+        What is criminal identification system ?
+        <div className={`accordion-sign ${openQuestions.includes('question04') ? 'open' : 'close'}`}></div>
+      </div>
+      {openQuestions.includes('question04') && (
+        <div className="accordion-answer">A Criminal Identification System is a comprehensive software solution designed to aid law enforcement agencies and criminal justice systems in the identification and tracking of criminals. It utilizes various technologies, such as biometrics, facial recognition, and fingerprint matching, to accurately identify individuals involved in criminal activities.</div>
+      )}
+      <div className="accordion-question" onClick={() => toggleQuestion('question04')}>
+        What is criminal identification system ?
+        <div className={`accordion-sign ${openQuestions.includes('question04') ? 'open' : 'close'}`}></div>
+      </div>
+      {openQuestions.includes('question04') && (
+        <div className="accordion-answer">A Criminal Identification System is a comprehensive software solution designed to aid law enforcement agencies and criminal justice systems in the identification and tracking of criminals. It utilizes various technologies, such as biometrics, facial recognition, and fingerprint matching, to accurately identify individuals involved in criminal activities.</div>
+      )}
+      <div className="accordion-question" onClick={() => toggleQuestion('question04')}>
+        What is criminal identification system ?
+        <div className={`accordion-sign ${openQuestions.includes('question04') ? 'open' : 'close'}`}></div>
+      </div>
+      {openQuestions.includes('question04') && (
+        <div className="accordion-answer">A Criminal Identification System is a comprehensive software solution designed to aid law enforcement agencies and criminal justice systems in the identification and tracking of criminals. It utilizes various technologies, such as biometrics, facial recognition, and fingerprint matching, to accurately identify individuals involved in criminal activities.</div>
+      )}
+      <div className="accordion-question" onClick={() => toggleQuestion('question04')}>
+        What is criminal identification system ?
+        <div className={`accordion-sign ${openQuestions.includes('question04') ? 'open' : 'close'}`}></div>
+      </div>
+      {openQuestions.includes('question04') && (
+        <div className="accordion-answer">A Criminal Identification System is a comprehensive software solution designed to aid law enforcement agencies and criminal justice systems in the identification and tracking of criminals. It utilizes various technologies, such as biometrics, facial recognition, and fingerprint matching, to accurately identify individuals involved in criminal activities.</div>
+      )}
+      <div className="accordion-question" onClick={() => toggleQuestion('question04')}>
+        What is criminal identification system ?
+        <div className={`accordion-sign ${openQuestions.includes('question04') ? 'open' : 'close'}`}></div>
+      </div>
+      {openQuestions.includes('question04') && (
+        <div className="accordion-answer">A Criminal Identification System is a comprehensive software solution designed to aid law enforcement agencies and criminal justice systems in the identification and tracking of criminals. It utilizes various technologies, such as biometrics, facial recognition, and fingerprint matching, to accurately identify individuals involved in criminal activities.</div>
+      )}
+      <div className="accordion-question" onClick={() => toggleQuestion('question04')}>
+        What is criminal identification system ?
+        <div className={`accordion-sign ${openQuestions.includes('question04') ? 'open' : 'close'}`}></div>
+      </div>
+      {openQuestions.includes('question04') && (
+        <div className="accordion-answer">A Criminal Identification System is a comprehensive software solution designed to aid law enforcement agencies and criminal justice systems in the identification and tracking of criminals. It utilizes various technologies, such as biometrics, facial recognition, and fingerprint matching, to accurately identify individuals involved in criminal activities.</div>
+      )}
       <div className="accordion-question" onClick={() => toggleQuestion('question04')}>
         What is criminal identification system ?
         <div className={`accordion-sign ${openQuestions.includes('question04') ? 'open' : 'close'}`}></div>
