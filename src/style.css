@@ -1,0 +1,89 @@
+
+/* FAQandHelp.css */
+
+.accordion {
+  border: 2px solid black;
+  border-radius: 0px;
+  width: 70%;
+  margin-left: 230px;
+}
+
+.accordion-question {
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-sign {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* New style to align questions to the left and signs to the right */
+.accordion-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.accordion-sign {
+  margin-left: auto;
+}
+
+.accordion-sign.open::before {
+  content: '-';
+}
+
+.accordion-sign.close::before {
+  content: '+';
+}
+
+.accordion-answer {
+  background-color: #d3e9f5;
+  padding: 10px;
+  color: black;
+}
+
+
+
+
+   /* Home.css */
+
+   .Home-container{
+    margin-top: -200px;
+   }
+
+
+.welcome-heading h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #004747;
+  align-items: center; 
+ 
+
+}
+
+.sub-heading1 {
+  text-align: left;
+  font-size: 36px;
+  color: black;
+  align-items: center;
+  
+ 
+
+}
+
+
+.sub-heading2 {
+  text-align: left;
+  font-size: 36px;
+  color: black;
+  align-items: center;
+
+}
+
