@@ -1,20 +1,20 @@
 import React from 'react';
 import '../style.css';
 import NavigationBar from '../Components/Navigaion';
+import imageSrc from '../Assets/welcomeimg.png';
 
 
 function HomePO() {
   const containerStyle = {
-    
+    backgroundImage: `url(${imageSrc})`, 
     backgroundSize: 'cover',
     backgroundPosition: 'center',        
     backgroundRepeat: 'no-repeat',      
-    height: '87vh',                      
+    height: '110vh',                      
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#B0D9B1',
     
     
   };
@@ -27,6 +27,7 @@ function HomePO() {
     
       
     <div style={containerStyle} className="home-container">
+      <div className='welcome-hedcont'>
       <div className='welcome-heading'>
       <h1>Welcome</h1>
       </div>
@@ -36,7 +37,7 @@ function HomePO() {
       <div className="sub-heading2">
        to Improve Your Knowledge
       </div>
-    
+      </div>
     </div>
     </div>
   );
